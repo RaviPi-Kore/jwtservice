@@ -16,7 +16,14 @@ $ [sudo] npm install forever -g
 To run the application
 
 ```
+For HS256
 update the config.json with clientId and clientSecreat
+
+FOR RS256
+
+add key with clientId name like cs-1234555.key
+
+
 $ forever start app.js
 ```
 
